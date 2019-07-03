@@ -1,0 +1,41 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "ilsa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack --config webpack.prod.config.js",
+    "dev": "webpack-dev-server --config webpack.dev.config.js --open --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^3.12.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.4.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sass-loader": "^7.1.0",
+    "webpack-dev-server": "^2.11.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilsa344/ilsa-malik.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilsa344/ilsa-malik/issues"
+  },
+  "homepage": "https://github.com/ilsa344/ilsa-malik#readme"
+}
