@@ -1,0 +1,53 @@
+.support-number{
+    a{
+        font-size: 14px !important;
+        font-weight: normal;
+        background-color: #022752 !important;
+        color: #ffffff !important;
+        padding: 9px 26px ;
+        border-radius: 0px;
+        line-height: 14px;
+    }
+   
+}
+.bg-animated{
+    background: transparent;
+}
+.navbar-nav{
+    li{
+        a{
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+    }
+    li:hover a{
+        color: red !important;
+    }
+}
+.navbar-brand{
+    img{
+        width: 160px;
+    }
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+nav.bg-white{
+    animation: scroll 1.5s;
+}
+@keyframes scroll{
+    0%{
+        opacity: 0;
+
+    }
+    50%{
+        opacity: 0.5;
+        top:-80px;
+    }
+    100%{
+        opacity: 1;
+        top: 0;
+    }
+}

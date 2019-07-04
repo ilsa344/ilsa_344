@@ -1,0 +1,59 @@
+#Testimonials h2, #About-Us-head h2 {
+    position: relative;
+    color: #022752 !important;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 960px)
+{.sec-title h2, #Testimonials h2, #About-Us-head h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}}
+.testimonial-inner-123 {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+}
+p.test-aut-123-text {
+    margin-bottom: 15px;
+}
+p.test-aut-123 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial , "Helvetica Neue", Helvetica, Gotham, sans-serif !important;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.kc-css-483473 {
+    background: #f8f8f8;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+}
+body.kc-css-system .kc-css-483473, body.kc-css-system .kc-css-483473 p {
+    color: #ffffff;
+}
+.kc-css-483473 p {
+    color: #ffffff;
+}
+
+p.big-aaa {
+    color: #022752 !important;
+    font-family: Arial , "Helvetica Neue", Helvetica, Gotham, sans-serif !important;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+@media only screen and (max-width: 1140px) and (min-width: 1025px)
+{p {
+    margin-bottom: 15px;
+}}
+
+.Forminbetweenconetnt-right a {
+    color: #3f3f3f;
+    font-weight: 600;
+    transition: all .3s linear;
+}

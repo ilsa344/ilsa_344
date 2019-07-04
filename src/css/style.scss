@@ -1,0 +1,21 @@
+@import './components/Nav';
+@import './components/Header';
+@import './components/BlogView';
+@import './components/About';
+@import './components/Offers';
+@import './components/Clients';
+@import './components/Calculator';
+@import './components/HappyClients';
+@import './components/Map';
+@import './components/Footer';
+button, a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none !important;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+body{
+    overflow-x: hidden
+}
